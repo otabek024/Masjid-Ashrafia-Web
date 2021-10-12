@@ -15,7 +15,7 @@ const Navbar = () => {
             </ul>
             
         </div>
-        <button className="btn">JOIN TODAY</button>
+        <a href="https://t.me/inha_masjid" className="btn">JOIN US</a>
       </div>
     </div>
   )

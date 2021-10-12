@@ -34,13 +34,13 @@
 }
 
 .btn{
-  border: 2px solid white;
-  padding: 10px 15px;
+  padding: 5px 10px;
   background-color: green;
   color: white;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .n-link{

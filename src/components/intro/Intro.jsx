@@ -14,7 +14,7 @@ const Intro = () => {
           is open all the time you can come and pray.  
         </p>
         <div className="i-info">
-          <button className="i-btn">SUPPORT US</button>
+          <a href="#donation" className="i-btn">SUPPORT US</a>
           <div className="i-contact">
             <span className="i-phone">Call Us (+82) 2784 9922</span>
             <span className="i-contact-text">For any question or concern</span>
