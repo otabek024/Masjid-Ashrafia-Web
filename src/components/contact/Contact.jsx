@@ -50,7 +50,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="c-container">
+      <div className="c-container" id="contact">
         <div className="form-container">
           <h1 className="c-title">
             For any suggestions? <br />

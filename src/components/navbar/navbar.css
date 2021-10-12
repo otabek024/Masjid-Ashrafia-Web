@@ -43,6 +43,10 @@
   cursor: pointer;
 }
 
+.n-link{
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .menu-item{
     font-size: 1rem;

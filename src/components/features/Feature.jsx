@@ -7,7 +7,7 @@ import donImg from '../../img/donation hand.png'
 const Feature = () => {
   return (
     <>
-      <div className="f-container">
+      <div className="f-container" id="donation">
         <div className="f-left">
           <img src={donImg} alt="" className="f-img"/>
           <b className="f-title">Ihsan will be rewarded by Paradise</b>

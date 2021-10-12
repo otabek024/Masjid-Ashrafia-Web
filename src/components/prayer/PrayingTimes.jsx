@@ -4,7 +4,7 @@ import './prayingTimes.css'
 const PrayingTimes = () => {
   return (
     <>
-      <div className="p-container">
+      <div className="p-container" id="prayer">
         <h1 className="p-title">Masjid Ashrifa Prayer Times</h1>
         <p className="p-desc">Prayer Times will be updated frequently by the website owner</p>
         <div className="p-box">
