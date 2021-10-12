@@ -1,0 +1,38 @@
+.fo-container{
+  height: 10%;
+  background-color: #111;
+  color: lightgray;
+}
+
+.fo-wrapper{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fo-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.fo-list-item{
+  margin-right: 20px;
+}
+@media screen and (max-width: 480px) {
+  .fo-wrapper{
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .fo-list-item{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .copyright{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,38 @@
+.square{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 gold;
+  opacity: 0.7;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  z-index: -1;
+  animation: move 15s linear alternate infinite;
+}
+
+@keyframes move {
+  to{
+    transform: translate(80vh, 80vh);
+  }
+}
+
+.burst{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  opacity: 0.7;
+  position: absolute;
+  top: 60px;
+  right: 660px;
+  z-index: -1;
+  animation: opposite 25s linear alternate infinite;
+}
+
+@keyframes opposite {
+  to{
+    transform: translate(-80vh, 30vh);
+  }
+}
+

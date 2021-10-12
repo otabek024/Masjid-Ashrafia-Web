@@ -1,0 +1,184 @@
+.c-container{
+  height: 90%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container{
+  width: 50%;
+}
+
+form{
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.left-form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.right-form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input{
+  width: 200px;
+  padding: 20px;
+}
+
+textarea{
+  width: 200px;
+  height: 60%;
+  padding: 20px;
+}
+
+.c-btn{
+  border: none;
+  padding: 15px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.c-title{
+  margin-left: 130px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.address-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 7rem .5rem;
+}
+
+.addressItem{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.c-flex{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.addressItem p{
+  color: #333;
+}
+
+.bg-shape{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+
+  background-color:lightgray;
+}
+
+@media screen and (max-width: 768px) {
+  form{
+    flex-direction: column;
+  }
+  .c-title{
+    margin: 20px;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 15px;
+  }
+  .left-form{
+    height: 50%;
+    margin-right: 0px;
+  }
+  .right-form{
+    text-align: center;
+  }
+  input{
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  textarea{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .addressItem{
+    font-size: .9rem;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .c-container{
+    flex-direction: column;
+  }
+  .form-container{
+    width: 100%;
+  }
+  .c-title{
+    margin: 20px;
+    text-align: center;
+  }
+  form{
+    flex-direction: column;
+  }
+  .left-form{
+    height: 50%;
+    margin-right: 0px;
+  }
+  .right-form{
+    text-align: center;
+  }
+  input{
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  textarea{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .c-btn{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 5px auto;
+  }
+  .address-container{
+    width: 100%;
+  }
+  .c-flex{
+    margin-bottom: 10px;
+  }
+  .addressItem{
+    font-size: 15px;
+  }
+  .bg-shape{
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 50% 100%, 0 65%);
+  }
+
+}
