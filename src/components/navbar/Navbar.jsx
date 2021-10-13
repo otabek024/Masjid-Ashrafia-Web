@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="container" id="home">
       <div className="wrapper">
         <div className="left">
-          <div className="logo">Masjid Ashrafia</div>
+          <div className="logo">Inha Masjid</div>
             <ul className="menu">
               <a href="#home" className="n-link"><li className="menu-item">Home</li></a>
               <a href="#donation" className="n-link"><li className="menu-item">Donation</li></a>
