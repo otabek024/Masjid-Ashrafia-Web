@@ -9,7 +9,7 @@ const Intro = () => {
       <div className="i-left">
         <h1 className="i-title">Welcome to Masjid Inha University</h1>
         <p className="i-desc">
-          Masjid Ashrafia is locatad in Incheon, South Korea. 
+          Inha Masjid is locatad in Incheon, South Korea. 
           Specifically, it is close to Inha University. Our Masjid 
           is open all the time you can come and pray.  
         </p>

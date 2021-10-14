@@ -5,6 +5,8 @@ import Feature from "./components/features/Feature.jsx";
 import PrayingTimes from "./components/prayer/PrayingTimes.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import MasjidImg from "./components/masjidImages/MasjidImg.jsx";
+import Imam from "./components/imam/Imam.jsx";
 
 
 
@@ -17,6 +19,8 @@ function App() {
       <Intro />
       <Feature />
       <PrayingTimes/>
+      <MasjidImg />
+      <Imam />
       <Contact />
       <Footer />
     </div>

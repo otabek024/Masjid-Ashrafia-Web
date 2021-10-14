@@ -1,6 +1,7 @@
 .f-container{
   height: 100%;
   display: flex;
+  margin-top: 50px;
 }
 
 .f-left{
@@ -22,7 +23,7 @@
 }
 
 .f-img{
-  width: 25%;
+  width: 20%;
 }
 
 .f-title{
@@ -47,18 +48,6 @@
   color: green;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.f-bg-shape{
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 56%, 0% 0%);
-
-  background-color:lightgray;
 }
 
 .fa-telegram{

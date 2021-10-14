@@ -87,18 +87,6 @@ textarea{
   color: #333;
 }
 
-.bg-shape{
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-
-  background-color:lightgray;
-}
-
 @media screen and (max-width: 768px) {
   form{
     flex-direction: column;

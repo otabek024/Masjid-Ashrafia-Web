@@ -11,6 +11,7 @@ const Navbar = () => {
               <a href="#home" className="n-link"><li className="menu-item">Home</li></a>
               <a href="#donation" className="n-link"><li className="menu-item">Donation</li></a>
               <a href="#prayer" className="n-link"><li className="menu-item">Praying Times</li></a>
+              <a href="#masjidImg" className="n-link"><li className="menu-item">Images</li></a>
               <a href="#contact" className="n-link"><li className="menu-item">Contact</li></a>
             </ul>
             
